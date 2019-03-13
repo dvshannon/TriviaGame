@@ -1,12 +1,12 @@
 
-$(document).on("click", userAnswer);
-function userAnswer(){
+// $(document).on("click", userAnswer);
+// function userAnswer(){
     
-    var selectedAns = $("choices-0").val();
-    $('#choices-0').append(selectedAns);
+//     var selectedAns = $("choices-0").val();
+//     $('#choices-0').append(selectedAns);
 
 
-};
+// };
 
 var questionSets = [
      {
