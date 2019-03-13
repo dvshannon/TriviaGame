@@ -14,22 +14,74 @@
             <h1>Meme<span>IQ!</span></h1>
         </header>
 
-        <!-- timer that resets after a question is answered -->
+        <!-- start button that activates the timer and quiz -->
+        <button id="start">Start the Quiz Now!</button>
+
+        <!-- Timer that continues until quiz is finsihed or time runs out -->
         <div id="timer"></div>
+        <div class="q0">
+            <img src="assets/images/badLuckBrian.png" alt="Bad Luck Brian picture">
+            <div id="question-0"></div>
+            <form id="choices-0">
 
-        <!-- question that changes after a question is answered -->
-        <div id="question"></div>
+            </form>
+        </div>
 
-        <!-- choices that change after a question is answered -->
-        <div id="choice-1"></div>
-        <div id="choice-2"></div>
-        <div id="choice-3"></div>
-        <div id="choice-4"></div>
+        <div class="q1">
+            <img src="assets/images/breadAcquired.jpg" alt="a man with ample bread around him">
+            <div id="question-1"></div>
+            <form id="choices-1"></form>
+        </div>
 
+        <div class="q2">
+            <img src="assets/images/conceited.JPG" alt="rapper making a funny face">
+            <div id="question-2"></div>
+            <div id="choices-2"></div>
+        </div>
+
+        <div class="q3">
+            <img src="assets/images/doge.jpg" alt="a very good boi">
+            <div id="question-3"></div>
+            <div id="choices-3"></div>
+        </div>
+
+        <div class="q4">
+            <img src="assets/images/surprisedPikachu.png" alt="pikachu but surprised">
+            <div id="question-4"></div>
+            <div id="choices-4"></div>
+        </div>
+        <div class="q5">
+            <img src="assets/images/trollFace.jpg" alt="very sad story to come">
+            <div id="question-5"></div>
+            <div id="choices-5"></div>
+        </div>
+
+        <div class="q6">
+            <img src="assets/images/ugandanKnuck.jpg" alt="he is not an imposter">
+            <div id="question-6"></div>
+            <div id="choices-6"></div>
+        </div>
+
+        <div class="q7">
+            <img src="assets/images/wednesdayFrog.png" alt="a jumpy boi">
+            <div id="question-7"></div>
+            <div id="choices-7"></div>
+        </div>
+
+
+      
+
+        <!-- button that submits the quiz if there is still time left -->
+        <button id="submit">Submit Here!</button>
+
+        <div id="results"></div>
     </div>
     
 
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'></script>
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
